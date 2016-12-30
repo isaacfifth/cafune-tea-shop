@@ -36,7 +36,6 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-  height: 100vh;
 }
 
 .column,
@@ -197,9 +196,6 @@ body {
   font-weight: 400;
   font-family: "Poppins", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
-  background-image: url(../img/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 
@@ -572,6 +568,7 @@ hr {
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+
 /*
 Note: The best way to structure the use of media queries is to create the queries
 near the relevant code. For example, if you wanted to change the styles for buttons
@@ -604,10 +601,13 @@ there.
 
 @media (min-width: 1200px) {}
 
-
-
-
-
 img {
   width: 100px;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
