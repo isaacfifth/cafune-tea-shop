@@ -37,9 +37,6 @@
   padding: 0 20px;
   box-sizing: border-box;
   height: 100vh;
-  background-image: url(../img/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .column,
@@ -200,6 +197,9 @@ body {
   font-weight: 400;
   font-family: "Poppins", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
