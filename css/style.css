@@ -36,6 +36,10 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+  height: 100vh;
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .column,
@@ -190,9 +194,6 @@ html {
 }
 
 body {
-  background-image: url(/img/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   font-size: 1.5em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
@@ -609,8 +610,4 @@ there.
 
 img {
   width: 100px;
-}
-
-.container {
-  height: 100vh;
 }
